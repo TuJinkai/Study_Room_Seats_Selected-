@@ -77,8 +77,8 @@ public class Main {
 		    		threads.get(i).start();
 		        }
 		    	//程序执行时间 7200000 = 2h
-//		    	Thread.sleep(7200000);
-		    	Thread.sleep(10000);
+		    	Thread.sleep(7200000);
+//		    	Thread.sleep(10000);
 		    	//关闭线程
 		    	for(int i=0;i<list.size();i++){
 		    		threads.get(i).stop();
